@@ -2,25 +2,14 @@
 
 ## 项目文档位置
 
-项目文档统一存放在 `docs/` 目录下，按类别分子目录存放：
+项目文档统一存放在 `docs/` 目录下，按类别分为四个子目录：
 
 | 目录 | 用途 |
 |------|------|
-| `docs/specs/` | 设计规格、接口定义 |
-| `docs/guides/` | 环境搭建、提交规范、操作指南 |
-| `docs/architecture/` | 架构图、模块依赖、技术选型 |
-| `docs/decisions/` | 技术决策记录（ADRs） |
-| `docs/onboarding/` | 项目背景、代码结构、流程说明 |
-| `docs/api/` | API 定义、请求/响应格式、认证方式 |
-| `docs/database/` | 数据库设计、ER图、迁移记录 |
-| `docs/deployment/` | 部署流程、环境配置、CI/CD |
-| `docs/testing/` | 测试计划、测试用例、覆盖率 |
-| `docs/security/` | 安全策略、审计报告、漏洞披露 |
-| `docs/changelog/` | 版本发布说明、变更记录 |
-| `docs/faq/` | 常见问题解答 |
-| `docs/troubleshooting/` | 错误排查、调试指南、应急响应 |
-| `docs/requirements/` | 业务需求、功能规格、用户故事 |
-| `docs/research/` | 技术调研、POC结果、竞品分析 |
+| `docs/guides/` | 开发指南（环境搭建、规范、FAQ、故障排查） |
+| `docs/specs/` | 需求规格（PRD、技术设计、调研） |
+| `docs/tech/` | 技术文档（架构、API、数据库、决策记录） |
+| `docs/ops/` | 运维文档（部署、测试、安全、变更日志） |
 
 **注意**：请勿将项目文档信息写入本文件，只保留 AI 治理规则。
 

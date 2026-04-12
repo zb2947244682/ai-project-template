@@ -54,21 +54,10 @@ npx @zb2947244682/ai-project-template@latest
 ├── .codex/                # Codex 目录
 ├── .gemini/               # Gemini CLI 目录
 ├── docs/                  # 项目文档
-│   ├── specs/             # 设计规格
-│   ├── guides/            # 开发指南
-│   ├── architecture/      # 架构文档
-│   ├── decisions/         # 决策记录（ADRs）
-│   ├── onboarding/        # 新人入职文档
-│   ├── api/               # API 文档
-│   ├── database/          # 数据库文档
-│   ├── deployment/        # 部署指南
-│   ├── testing/           # 测试文档
-│   ├── security/          # 安全文档
-│   ├── changelog/         # 变更日志和发布说明
-│   ├── faq/               # 常见问题
-│   ├── troubleshooting/   # 故障排查指南
-│   ├── requirements/      # 需求文档
-│   └── research/          # 研究和调研
+│   ├── guides/            # 开发指南（环境、规范、FAQ、故障排查）
+│   ├── specs/             # 需求规格（PRD、设计、调研）
+│   ├── tech/              # 技术文档（架构、API、数据库、决策）
+│   └── ops/               # 运维文档（部署、测试、安全、变更）
 ├── temp/scripts/          # 临时 AI 脚本（不被跟踪）
 ├── start-claude.bat       # 启动 Claude Code
 ├── start-codex.bat        # 启动 Codex
@@ -98,42 +87,14 @@ npx @zb2947244682/ai-project-template@latest
 
 ## 文档说明
 
-项目文档存放在 `docs/` 子目录下：
+项目文档存放在 `docs/` 子目录下，按功能分为四类：
 
-### 核心文档
-
-| 目录 | 用途 |
-|------|------|
-| `docs/specs/` | 设计规格 |
-| `docs/guides/` | 开发/部署指南 |
-| `docs/architecture/` | 架构图 |
-| `docs/decisions/` | 决策记录（ADRs） |
-| `docs/onboarding/` | 新人入职 |
-
-### 技术文档
-
-| 目录 | 用途 |
-|------|------|
-| `docs/api/` | API 文档和模式 |
-| `docs/database/` | 数据库设计和迁移 |
-| `docs/testing/` | 测试计划和用例 |
-| `docs/deployment/` | 部署流程 |
-| `docs/security/` | 安全策略和审计 |
-
-### 维护文档
-
-| 目录 | 用途 |
-|------|------|
-| `docs/changelog/` | 发布说明和版本 |
-| `docs/faq/` | 常见问题 |
-| `docs/troubleshooting/` | 问题解决指南 |
-
-### 产品文档
-
-| 目录 | 用途 |
-|------|------|
-| `docs/requirements/` | 业务需求 |
-| `docs/research/` | 技术研究和 POC |
+| 目录 | 用途 | 目标读者 |
+|------|------|----------|
+| `docs/guides/` | 环境搭建、开发规范、FAQ、故障排查 | 全体开发人员 |
+| `docs/specs/` | 产品需求、技术设计、技术调研 | 产品经理、开发人员 |
+| `docs/tech/` | 架构图、API定义、数据库设计、架构决策 | 架构师、开发人员 |
+| `docs/ops/` | 部署流程、测试计划、安全策略、版本变更 | 运维、DevOps |
 
 ## 许可证
 
