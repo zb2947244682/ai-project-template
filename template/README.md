@@ -81,7 +81,11 @@
 │   ├── requirements/      # 需求文档
 │   └── research/          # 研究文档
 ├── temp/scripts/          # 临时脚本（不跟踪）
-└── sync.bat               # Git 同步脚本
+├── sync.bat               # Git 同步脚本
+├── start-claude.bat       # 启动 Claude Code
+├── start-codex.bat        # 启动 Codex
+├── start-gemini.bat       # 启动 Gemini CLI
+└── sessions-cleaner.bat   # 清理 AI 会话历史数据
 ```
 
 ## AI 配置说明

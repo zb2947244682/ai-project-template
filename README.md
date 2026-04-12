@@ -73,6 +73,7 @@ npx @zb2947244682/ai-project-template@latest
 ├── start-claude.bat       # 启动 Claude Code
 ├── start-codex.bat        # 启动 Codex
 ├── start-gemini.bat       # 启动 Gemini CLI
+├── sessions-cleaner.bat   # 清理 AI 会话历史数据
 └── sync.bat               # Git 同步脚本
 ```
 
