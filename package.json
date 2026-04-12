@@ -1,0 +1,32 @@
+{
+  "name": "@zb2947244682/ai-project-template",
+  "version": "1.0.0",
+  "description": "AI development environment initializer. Creates .claude, .codex, .gemini, .agents configs with code quality standards.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "ai-project-template": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "template",
+    "README.md"
+  ],
+  "keywords": [
+    "template",
+    "cli",
+    "npx",
+    "ai",
+    "claude",
+    "codex",
+    "gemini"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check bin/cli.js && node --check lib/apply-template.js",
+    "smoke": "node bin/cli.js --dry-run --yes --target ./template-smoke-test"
+  }
+}
