@@ -54,3 +54,7 @@ temp/
 # AI generated temporary scripts
 temp/scripts/*
 !temp/scripts/README.md
+
+# Claude Code local config
+CLAUDE.local.md
+settings.local.json
