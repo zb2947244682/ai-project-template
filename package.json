@@ -1,6 +1,6 @@
 {
   "name": "@zb2947244682/ai-project-template",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "AI development environment initializer. Creates .claude, .codex, .gemini, .agents configs with code quality standards.",
   "license": "MIT",
   "type": "commonjs",
