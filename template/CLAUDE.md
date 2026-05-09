@@ -18,8 +18,6 @@
 本项目有以下 AI 配置文件，**内容必须始终保持一致**：
 
 - `CLAUDE.md` - 本文件（Claude Code 配置）
-- `GEMINI.md` - Gemini CLI 配置
-- `.agents/AGENTS.md` - 通用治理规则
 
 **规则**：
 - 无论修改哪个文件，都必须同步修改其他两个文件
@@ -65,33 +63,6 @@
 - 定义到独立的常量文件中（如 `constants.js`、`strings.py`、`messages.go`）
 - 禁止在业务逻辑代码中硬编码长字符串
 - 适用于所有编程语言，不仅限于 Node.js
-
-### 目录结构示例
-
-```
-src/
-├── constants/         # 字符串常量
-│   └── messages.ts
-├── utils/            # 工具函数
-│   ├── format.ts
-│   └── validate.ts
-├── components/       # UI 组件
-│   ├── Button/
-│   │   ├── index.ts
-│   │   ├── Button.ts
-│   │   └── Button.css
-│   └── Input/
-├── services/         # 业务逻辑层
-│   ├── userService.ts
-│   └── authService.ts
-└── pages/            # 页面层
-    ├── Home/
-    └── Login/
-```
-
-## 验证基线
-
-- 前端改动运行 `npm run build`
 
 ## 临时文件规范
 

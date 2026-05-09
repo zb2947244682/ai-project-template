@@ -31,11 +31,7 @@
 .
 ├── README.md              # 本文件（项目介绍）
 ├── CLAUDE.md              # Claude Code 配置
-├── GEMINI.md              # Gemini CLI 配置
-├── .agents/               # 通用 AI 治理规则
 ├── .claude/               # Claude Code 专用目录
-├── .codex/                # Codex 专用目录
-├── .gemini/               # Gemini CLI 专用目录
 ├── docs/                  # 项目文档
 │   ├── guides/            # 开发指南（环境、规范、FAQ、故障排查）
 │   ├── specs/             # 需求规格（PRD、设计、调研）
@@ -44,18 +40,8 @@
 ├── temp/scripts/          # 临时脚本（不跟踪）
 ├── sync.bat               # Git 同步脚本
 ├── start-claude.bat       # 启动 Claude Code
-├── start-codex.bat        # 启动 Codex
-├── start-gemini.bat       # 启动 Gemini CLI
 └── sessions-cleaner.bat   # 清理 AI 会话历史数据
 ```
-
-## AI 配置说明
-
-本项目配置了多个 AI 工具，各工具配置文件：
-
-- **CLAUDE.md** / **GEMINI.md** / **.agents/AGENTS.md**：三个文件内容必须保持一致，包含代码规范、文件大小限制、目录结构等规则
-
-**重要**：修改任一配置文件时，务必同步更新其他两个文件！
 
 ## 代码规范（摘要）
 
